@@ -26,22 +26,13 @@ def divide(a, b):
 
 
 def power(a, b):
-    """Raise a to the power of b."""
-    if not isinstance(a, (int, float)) or not isinstance(b, (int, float)):
-        raise TypeError("Power function requires numeric inputs")
-    print(f"Computing {a} ** {b}")
     return a ** b
 
-
 def square_root(a):
-    """Return the square root of a."""
-    if not isinstance(a, (int, float)):
-        raise TypeError("Square root requires a numeric input")
     if a < 0:
-        raise ValueError("Cannot compute square root of a negative number")
-
-    print(f"Computing √{a}")
+        raise ValueError("Cannot calculate square root of negative number")
     return a ** 0.5
+
 
 
 if __name__ == "__main__":
