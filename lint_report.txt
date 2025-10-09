@@ -1,7 +1,16 @@
+************* Module src.cli
+src/cli.py:7:0: E0401: Unable to import 'calculator' (import-error)
+src/cli.py:32:11: W0718: Catching too general exception Exception (broad-exception-caught)
+src/cli.py:37:4: E1120: No value for argument 'operation' in function call (no-value-for-parameter)
+src/cli.py:37:4: E1120: No value for argument 'num1' in function call (no-value-for-parameter)
+src/cli.py:7:0: W0611: Unused multiply imported from calculator (unused-import)
+src/cli.py:7:0: W0611: Unused divide imported from calculator (unused-import)
+src/cli.py:7:0: W0611: Unused power imported from calculator (unused-import)
+src/cli.py:7:0: W0611: Unused square_root imported from calculator (unused-import)
 ************* Module src.calculator
 src/calculator.py:33:0: C0116: Missing function or method docstring (missing-function-docstring)
-src/calculator.py:36:0: C0116: Missing function or method docstring (missing-function-docstring)
+src/calculator.py:37:0: C0116: Missing function or method docstring (missing-function-docstring)
 
 ------------------------------------------------------------------
-Your code has been rated at 9.29/10 (previous run: 9.29/10, +0.00)
+Your code has been rated at 5.60/10 (previous run: 5.60/10, +0.00)
 
